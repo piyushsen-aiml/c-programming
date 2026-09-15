@@ -1,0 +1,46 @@
+#include<stdio.h>
+#include<math.h>
+#include<conio.h>
+
+int main()
+{
+float a,b,c,avg;
+
+printf("ENTER FIRST NUMBER : ");
+scanf("%f",&a);
+printf("ENTER SECOND NUMBER : ");
+scanf("%f",&b);
+printf("ENTER THIRD NUMBER : ");
+scanf("%f",&c);
+
+avg=(a+b+c)/2;
+printf("AVERAGE OF THREE NUMBERS IS : %f",avg);
+
+return 0;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
