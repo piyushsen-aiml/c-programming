@@ -1,0 +1,46 @@
+#include<stdio.h>
+#include<math.h>
+#include<conio.h>
+
+int main()
+{
+	int year;
+	
+	printf("ENTER YEAR IN 4 DIGIT : ");
+	scanf("%d",&year);
+	
+	if(year%400==0)
+	{
+		printf("LEAP YEAR");
+	}
+	else if(year%100==0)
+	{
+		printf("NOT A LEAP YEAR");
+	}
+	else if(year%4==0)
+	{
+		printf("LEAP YEAR");
+	}
+	else
+	{
+		printf("NOT A LEAP YEAR");
+	}
+	return 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
